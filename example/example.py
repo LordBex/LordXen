@@ -5,7 +5,6 @@ api_key = input('API_KEY ? ')
 
 x = XenForo(url=forum_url, api_key=api_key)
 
-
 xen_thread_800 = x.get_thread(800)
 s = xen_thread_800.exists()
 if s:
